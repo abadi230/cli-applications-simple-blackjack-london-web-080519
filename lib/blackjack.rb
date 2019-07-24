@@ -53,7 +53,7 @@ def hit? (current_num_cards)
   
     invalid_command
   end
-  total
+  return total
 end
 
 def invalid_command
