@@ -73,16 +73,11 @@ def runner
      
     deal_card
     total_card = initial_round
-    
-    if total_card > 21
+    until total_card > 21
+    total_card = hit?(total_card)
     display_card_total(total_card)
-    end_game(total_card) 
   end
-      
-    hit?(total_card)
-  
-  
-  
+    end_game(total_card) 
   
 end
     
