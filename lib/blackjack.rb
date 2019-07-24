@@ -72,9 +72,9 @@ def runner
      welcome
      
     deal_card
-    initial_round
+    total_card = initial_round
     
-    total_card = hit?(initial_round)
+    hit?(total_card)
   
     end_game(total_card)
   
