@@ -67,9 +67,11 @@ end
 #####################################################
 
 def runner
-  # welcome
-  # initial_round
-  # prompt_user
+  welcome
+  initial_round
+  hit?(initial_round)
+  display_card_total
+end_game if display_card_total => 21
   
   
 end
