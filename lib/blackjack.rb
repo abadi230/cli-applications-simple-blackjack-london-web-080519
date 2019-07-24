@@ -42,7 +42,7 @@ end
 def hit? (current_num_cards)
   # code hit? here
   prompt_user
-  binding.pry
+  binding.pry 
   input = get_user_input
   generate = deal_card
   
