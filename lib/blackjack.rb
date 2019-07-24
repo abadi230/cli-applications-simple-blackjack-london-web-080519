@@ -67,7 +67,7 @@ end
 #####################################################
 
 def runner
-  welcome
+  puts welcome
   deal_card
   initial_round
   total_card = hit?(initial_round)
