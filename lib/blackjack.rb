@@ -32,8 +32,7 @@ def initial_round
   first = deal_card
   second = deal_card
   total = first + second
-  total = display_card_total(total)
-  binding.pry
+  display_card_total(first + second)
 end
 
 def hit?
