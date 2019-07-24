@@ -10,12 +10,12 @@ def deal_card
 end
 
 def display_card_total(total)
-  # method to get total number of card
+  
   puts "Your cards add up to #{total}"
 end
 
 def prompt_user
-  # display inter face 
+  
   puts "Type 'h' to hit or 's' to stay"
 end
 
@@ -24,7 +24,7 @@ def get_user_input
 end
 
 def end_game(card_total)
-  # code #end_game here
+  
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
