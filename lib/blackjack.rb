@@ -33,7 +33,7 @@ def initial_round
   second = deal_card
   # total = display_card_total(first + second)
   total = first + second
-  binding.pry
+  # binding.pry
   return total 
   puts display_card_total(total)
   
