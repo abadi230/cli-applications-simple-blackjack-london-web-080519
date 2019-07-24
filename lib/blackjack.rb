@@ -34,8 +34,8 @@ def initial_round
   # total = display_card_total(first + second)
   total = first + second
   binding.pry
-  puts display_card_total(total)
   return total 
+  puts display_card_total(total)
   
 end
 
