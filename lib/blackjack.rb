@@ -41,9 +41,11 @@ end
 
 def hit? (current_num_cards)
   # code hit? here
-  message = prompt_user
+  prompt_user
+  binding.pry
   input = get_user_input
-  input =! 's' ? deal_card
+  generate = deal_card
+  
   
 end
 
