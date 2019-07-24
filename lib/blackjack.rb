@@ -69,7 +69,8 @@ end
 def runner
   
   
-    puts welcome
+     welcome
+     
     deal_card
     puts initial_round
     
