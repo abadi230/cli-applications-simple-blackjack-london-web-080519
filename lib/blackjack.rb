@@ -33,7 +33,7 @@ def initial_round
   second = deal_card
   # total = display_card_total(first + second)
   total = first + second
-  puts display_card_total(total.to_s)
+  puts display_card_total(total)
   return total 
   
 end
