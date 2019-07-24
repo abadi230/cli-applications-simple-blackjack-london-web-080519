@@ -72,7 +72,7 @@ def runner
      welcome
      
     deal_card
-    puts initial_round
+    initial_round
     
     total_card = hit?(initial_round)
     display_card_total(total_card)
