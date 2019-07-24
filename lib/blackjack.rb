@@ -70,13 +70,13 @@ def runner
   total_card = 0 
   while total_card < 21
   
-  puts welcome
-  deal_card
-  puts initial_round
-  
-  total_card = hit?(initial_round)
-  display_card_total(total_card)
-end
+    puts welcome
+    deal_card
+    puts initial_round
+    
+    total_card = hit?(initial_round)
+    display_card_total(total_card)
+  end
     puts end_game(total_card)
   
   
