@@ -51,8 +51,8 @@ def hit? (current_num_cards)
     total = current_num_cards
     puts total
   else 
-    puts total = "Please enter a valid command"
-    
+    total = "Please enter a valid command"
+    puts total
   end
   
 end
