@@ -42,12 +42,12 @@ end
 def hit? (current_num_cards)
   # code hit? here
   prompt_user
-  binding.pry
-  
+ 
   input = get_user_input
-  generate = deal_card
-  
-  
+  if input == 's' 
+    total = current_num_cards + deal_card
+  end
+  total
 end
 
 def invalid_command
