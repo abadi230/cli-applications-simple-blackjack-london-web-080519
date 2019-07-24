@@ -39,8 +39,12 @@ def initial_round
   
 end
 
-def hit?
+def hit? (current_num_cards)
   # code hit? here
+  message = prompt_user
+  input = get_user_input
+  input =! 's' ? deal_card
+  
 end
 
 def invalid_command
