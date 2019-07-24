@@ -53,7 +53,7 @@ def hit? (current_num_cards)
   
     invalid_command
   end
-  
+  total
 end
 
 def invalid_command
@@ -70,6 +70,7 @@ def runner
   welcome
   initial_round
   prompt_user
+  
   
 end
     
