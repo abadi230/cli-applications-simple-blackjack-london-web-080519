@@ -70,7 +70,7 @@ def runner
   total_card = 0 
   while total_card < 21
   
-  welcome
+  puts welcome
   deal_card
   initial_round
   
