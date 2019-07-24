@@ -69,7 +69,7 @@ end
 def runner
   welcome
   initial_round
-  hit?(initial_round)
+  thit?(initial_round)
   display_card_total
   if display_card_total => 21
   end_game
