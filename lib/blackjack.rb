@@ -49,7 +49,7 @@ def hit? (current_num_cards)
   elsif input == 'h'
     total = current_num_cards
   else 
-    
+    total = "Please enter a valid command"
     
   end
   total
