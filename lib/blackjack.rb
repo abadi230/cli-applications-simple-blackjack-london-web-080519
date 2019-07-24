@@ -5,7 +5,7 @@ end
 
 def deal_card
   # generate random number between 1 to 11
-  rand 1..11
+  return rand 1..11
 end
 
 def display_card_total(total)
