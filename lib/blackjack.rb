@@ -74,8 +74,8 @@ def runner
     deal_card
     initial_round
     
+    display_card_total(total_card)
     total_card = hit?(initial_round)
-    # display_card_total(total_card)
   
     end_game(total_card)
   
