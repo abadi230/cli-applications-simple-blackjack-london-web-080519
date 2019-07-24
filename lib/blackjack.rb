@@ -67,14 +67,18 @@ end
 #####################################################
 
 def runner
-  puts welcome
+  total_card = 0 
+  while total_card < 21
+  
+  welcome
   deal_card
   initial_round
+  
   total_card = hit?(initial_round)
   display_card_total(total_card)
-  if total_card > 21
+end
     puts end_game(total_card)
-  end
+  
   
   
 end
