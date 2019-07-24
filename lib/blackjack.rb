@@ -31,10 +31,9 @@ end
 def initial_round
   first = deal_card
   second = deal_card
-  # total = display_card_total(first + second)
   total = first + second
   display_card_total(total)
-  # binding.pry
+  
   return total 
   
 end
@@ -70,6 +69,7 @@ end
 def runner
   welcome
   initial_round
+  prompt_user
   
 end
     
