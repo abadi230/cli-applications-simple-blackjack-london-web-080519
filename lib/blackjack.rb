@@ -39,7 +39,7 @@ def initial_round
 end
 
 def hit? (current_num_cards)
-  # code hit? here
+  
   prompt_user
  
   input = get_user_input
