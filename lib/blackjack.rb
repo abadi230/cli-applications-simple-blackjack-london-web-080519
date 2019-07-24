@@ -52,7 +52,7 @@ def hit? (current_num_cards)
     total = "Please enter a valid command"
     
   end
-  total
+  return total
 end
 
 def invalid_command
